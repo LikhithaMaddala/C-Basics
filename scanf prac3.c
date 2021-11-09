@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-	char c;
-	printf("Enter a number(a-z or A-Z):");
-	scanf("%c",&c);
-	printf("corresponding ASCII character for %c is %d",c,c);
+	int c;
+	printf("Enter a number(65-90 or 97-122):");
+	scanf("%d",&c);
+	printf("corresponding ASCII character for %d is %c",c,c);
 }
 	
